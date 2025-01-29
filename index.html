@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio</title>
+  <script src="https://kit.fontawesome.com/60bfabd217.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=EB+Garamond&family=Fira+Code:wght@300..700&family=Inconsolata:wght@600&family=Josefin+Sans:wght@300&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic:wght@700&family=Noto+Serif:wght@500&family=Nunito:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=EB+Garamond&family=Inconsolata:wght@600&family=Josefin+Sans:wght@300&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nanum+Gothic:wght@700&family=Noto+Serif:wght@500&family=Nunito:wght@200&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="nav-left-btn">
+      <ul class="left-side active light">
+        <li class="black"></li>
+        <li class="black"></li>
+        <li class="black"></li>
+      </ul>
+    </div>
+
+    <!-- nav-kiri -->
+
+    <div class="left-nav light">
+      <a class="light" href="#about"><i class="light fa-solid p-3 fa-user"></i> ABOUT ME</a>
+      <a class="light" href="#skill"><i class="light fa-solid p-3 fa-pen-fancy"></i> SKILLS</a>
+      <a class="light" href="#"><i class="light fa-solid p-3 fa-pen-fancy"></i> PROJECT</a>
+      <a class="light" href="#"><i class="light fa-solid p-3 fa-phone"></i> CONTACT</a>
+      <a onclick="lightMode()" id="mode" class="light phone">
+        <img src="./ICON/light.png" alt="lightMode" />
+      </a>
+    </div>
+
+    <!-- nav-atas -->
+    <div class="nav detil light">
+      <h3 class="logo light">Alhambra</h3>
+      <!--detil -->
+
+      <div class="right-nav open">
+        <a href="#about"> ABOUT ME</a>
+        <a href="#skill"> SKILLS</a>
+        <a href="#"> PROJECT</a>
+        <a href="#"> CONTACT</a>
+      </div>
+      <a onclick="lightMode()" id="mode" class="light desktop" style="color: white">
+        <img src="./ICON/light.png" alt="lightMode" />
+      </a>
+    </div>
+  </header>
+  <div class="wrap light">
+    <div class="c-1" data-aos="fade-right">
+      <div class="textLoad">
+        <span class="text firstText light" style="background-color: transparent">Hi, I’m <span class="nando light bg-transparent">Nando</span>
+        </span>
+        <p class="light bio-text" style="background-color: transparent">
+          Welcome to my imaginative world! Let's explore <br> simple but creative works together. 🚀
+        </p>
+      </div>
+      <button class="click-me light d-flex">Hire Me <i class="fa-solid fa-arrow-right arrow light"></i></button>
+    </div>
+
+    <div class="c-2 light">
+      <div data-aos="fade-up mid">
+        <div class="floating">
+          <div class="label">
+            <p style="left:180px; top: -100px; position: relative;" class="bio-text light text-black p-2">Front-End Dev
+            </p>
+            <p style="left:-200px; top: -100px; position: relative;" class="bio-text light text-black p-2">Graphic
+              Designer
+            </p>
+            <p style="top: -50px;left:100px; position: relative;" class="bio-text light text-black p-2">UI/UX Designer
+            </p>
+          </div>
+        </div>
+        <img src="./ICON/me.png" alt="Paris" />
+      </div>
+
+    </div>
+  </div>
+  <!--BIO-->
+  <div class="bio light" class="d-flex align-items-center>
+    <div data-aos=" fade-up"">
+    <div class="me">
+      <h1 class="name light">
+        About
+        Me
+      </h1>
+      <div class="text container-fluid d-flex" style="width: 100%; height: auto">
+        <p style="font-size: 18px; background-color: transparent" class="p-4">
+          Hello everyone, my name is Alhambra Ferdinando, a
+          second-semester
+          student majoring in Information Technology at Muhammadiyah Purworejo
+          University. I am also a FrontEnd Web Developer who has successfully
+          developed several websites and web applications.<br /><br />
+          Besides, I am actively involved in the web developer community and
+          often give talks and workshops on web development at various events
+          and semin`ars. I am very excited t o share my experiences and
+          knowledge with you all about the world of web development. Thank you
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILL -->
+  <div class="myskill light">
+    <div class="its-me light d-flex flex-column ">
+      <h1 class="fst-italic skill-title light" style="font-weight: 100;  transition-duration: 0.2s;">Discovering the
+        Magic</h1>
+      <h1 id="skill">Behind the Design</h1>
+    </div>
+    <div class="row gap-4  d-flex align-items-center justify-content-center">
+      <div class="card-skill light position-relative card rounded-4p-3">
+        <img class="icon-skill" src="/ICON/html.png" alt="" />
+        <p class="light" style="background-color: transparent;">HTML</p>
+      </div>
+      <div class="card-skill light position-relative card rounded-4p-3">
+        <img class="icon-skill" src="/ICON/css-3.png" alt="" />
+        <p class="light" style="background-color: transparent;">CSS</p>
+      </div>
+      <div class="card-skill light position-relative card rounded-4p-3">
+        <img class="icon-skill" src="/ICON/js.png" alt="" />
+        <p class="light" style="background-color: transparent;">JS</p>
+      </div>
+      <div class="card-skill light position-relative card rounded-4p-3">
+        <img class="icon-skill" src="/ICON/bootstrap-5-1.svg" alt="" />
+        <p class="light" style="background-color: transparent;">Bootstrap</p>
+      </div>
+      <div class="card-skill light position-relative card rounded-4p-3">
+        <img class="icon-skill figma" src="/ICON/figma_logo.svg" alt="" />
+        <p class="light" style="background-color: transparent;">Figma</p>
+      </div>
+      <div class="card-skill light position-relative card rounded-4p-3">
+        <img class="icon-skill" src="/ICON/Git-Icon-1788C.svg" alt="" />
+        <p class="light" style="background-color: transparent;">Git</p>
+      </div>
+      <div class="card-skill p-0 light position-relative card rounded-4p-3">
+        <img class="icon-skill p-0 laravel" src="/ICON/laravel.svg" alt="" />
+        <p class="light" style="background-color: transparent;">Laravel</p>
+      </div>
+      <div class="card-skill p-0 light position-relative card rounded-4p-3">
+        <img class="icon-skill p-0 laravel" src="/ICON/jquery2.svg" alt="" />
+        <p class="light" style="background-color: transparent;">JQuery</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="exp light d-flex justify-content-center flex-column ">
+    <div class="project-judul d-flex flex-column align-items-start justify-content-start">
+      <p class="project name light">Project</p>
+      <h1 class="bg-transparent">Dive into My Creations 🚀</h1>
+    </div>
+    <div id="nav-project" class="nav-project light d-flex position-relative gap-4">
+      <button class="project-btn btn-nav-project btn-nav-active light rounded-5">Web
+        Design</button>
+      <button class="design-btn btn-nav-project light rounded-5">Design</button>
+    </div>
+    <div id="my-web"class="my-projects my-web container-fluid">
+      <div class="card-project light">
+        <div class="card-image"  onclick="window.location.href='https://digifest.vercel.app/'" style="cursor: pointer;">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/1.svg" alt="E-commerce Slide 1">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/2.svg" alt="E-commerce Slide 2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="category d-flex pt-3 gap-2">
+          <p class="role light">Bootstrap</p>
+          <p class="role light">JQuery</p>
+        </div>
+        <div class="heading">
+          <span class="light bg-transparent">Digifest 2024</span>
+          <p class="light bg-transparent">Sebuah ajang Kompetisi innovasi di bidang teknologi dalam merayakan peringatan Milad Program Studi Teknologi Informasi Universitas Muhammadiyah Purworejo.</p>
+        </div>
+      </div>
+      <div class="card-project light" onclick="window.location.href='https://web-daur-ulang-sampah.vercel.app/index.html'" style="cursor: pointer;">
+        <div class="card-image">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/3.svg" alt="E-commerce Slide 1">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/4.svg" alt="E-commerce Slide 2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="category d-flex pt-3 gap-2">
+          <p class="role light">Javascript</p>
+          <p class="role light">Bootstrap</p>
+        </div>
+        <div class="heading">
+          <span class="light bg-transparent">Recycle for Change</span>
+          <p class="light bg-transparent">Situs web yang mengedukasi dan menghubungkan masyarakat untuk mendukung budaya daur ulang demi pelestarian lingkungan.</p>
+        </div>
+      </div>
+      <div class="card-project light">
+        <div class="card-image">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="img/5.svg" alt="E-commerce Slide 1">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="img/6.svg" alt="E-commerce Slide 2">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="category d-flex pt-3 gap-2">
+          <p class="role light">Bootstrap</p>
+        </div>
+        <div class="heading">
+          <span class="light bg-transparent">E-Commerce</span>
+          <p class="light bg-transparent">Website ini merupakan clone dari platform e-commerce, dirancang untuk tujuan pembelajaran dan eksplorasi teknologi web.</p>
+        </div>
+      </div>
+      <div class="card-project light">
+        <div class="card-image">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block" style="top: -110px;" src="img/8.svg" alt="E-commerce Slide 1">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="category d-flex pt-3 gap-2">
+          <p class="role light">Javascript</p>
+          <p class="role light">Bootstrap</p>
+        </div>
+        <div class="heading">
+          <span class="light bg-transparent">Let's Study</span>
+          <p class="light bg-transparent">Platform e-learning interaktif yang dirancang sebagai big project light mata kuliah, menghadirkan pengalaman belajar yang efektif dan inovatif!</p>
+        </div>
+      </div>
+      <div class="card-project light">
+        <div class="card-image" onclick="window.location.href='https://himatekno-umpwr.netlify.app/'" style="cursor: pointer;">
+                <img class="d-block" src="img/9.svg" alt="E-commerce Slide 1">
+        </div>
+        <div class="category d-flex pt-3 gap-2">
+          <p class="role light">Javascript</p>
+          <p class="role light">Bootstrap</p>
+        </div>
+        <div class="heading">
+          <span class="light bg-transparent">HIMATEKNO</span>
+          <p class="light bg-transparent">Website resmi Himpunan Mahasiswa Teknologi Informasi Universitas Muhammadiyah Purworejo, sebagai pusat informasi dan pengembangan mahasiswa di bidang teknologi informasi.</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="my-design mb-5">
+      <div class="card-project light mt-5">
+        <div class="card-image">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active bg-white">
+                <img class="d-block" style="width: 75%; top: 0px; left: 50px;" src="img/7.svg" alt="E-commerce Slide 1">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="category d-flex pt-3 gap-2">
+          <p class="role light">Figma</p>
+          <p class="role light">UI/UX Design</p>
+        </div>
+        <div class="heading">
+          <span class="light bg-transparent">Teenn Doc</span>
+          <p class="light bg-transparent">Desain aplikasi Teen Doc memadukan tampilan modern dan interaktif, bertujuan untuk meningkatkan kesadaran generasi Z terhadap penyakit langka melalui pendekatan edukasi berbasis digital dan peer tutoring.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="float-nav">
+      <div class="bubble one light">
+        <a href="https://www.instagram.com/nanokeboku/">
+          <i class="fa-brands fa-instagram br light"></i>
+        </a>
+      </div>
+      <div class="bubble two light">
+        <a href="https://www.linkedin.com/in/alhambra-ferdinando-503511286">
+          <i class="fa-brands fa-linkedin br light"></i>
+        </a>
+      </div>
+      <div class="bubble three light">
+        <a href="https://github.com/NanoKeboku">
+          <i class="fa-brands fa-github br light"></i>
+        </a>
+      </div>
+      <div class="bubble four light">
+        <a href="whatsapp://send?text=Hello&phone=+628159990728">
+          <i class="fa-brands fa-whatsapp br light"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      AOS.init({
+        // Global settings:
+        disable: false,
+        startEvent: "DOMContentLoaded",
+        initClassName: "aos-init",
+        animatedClassName: "aos-animate",
+        useClassNames: false,
+        disableMutationObserver: false,
+        debounceDelay: 50,
+        throttleDelay: 99,
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120,
+        delay: 0,
+        duration: 1000,
+        easing: "ease",
+        once: false,
+        mirror: false,
+        anchorPlacement: "top-bottom",
+      });
+    </script>
+</body>
+
+</html>
