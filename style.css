@@ -1448,12 +1448,16 @@ input[type="submit"]:hover {
   .card-image .study {
     top: 0px;
   }
+
+  body{
+    margin: auto;
+  }
   .wrap {
     flex-direction: column-reverse;
     height: auto;
     min-height: auto;
-    max-height: none;
-    /* min-width: 1470px; */
+    max-height: max-content;
+    max-height: 1140px;
     width: 100%;
     display: flex;
     margin: auto;
@@ -1516,6 +1520,7 @@ input[type="submit"]:hover {
     width: 700px;
     box-sizing: border-box;
     height: 35vh;
+    max-height: 450px;
     padding: 20px;
     top: 30px;
     position: relative;
