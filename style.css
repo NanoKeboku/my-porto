@@ -1383,6 +1383,7 @@ input[type="submit"]:hover {
     padding: 0;
     gap: 40px;
     align-items: center;
+    flex-direction: row;
   }
 
   .bubble {
@@ -1431,6 +1432,10 @@ input[type="submit"]:hover {
     height: 50px;
     position: relative;
   }
+
+  .card-image .study {
+    top: -20px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1239px) {
@@ -1438,6 +1443,10 @@ input[type="submit"]:hover {
     object-fit: cover;
     width: auto;
     height: 350px;
+  }
+
+  .card-image .study {
+    top: 0px;
   }
   .wrap {
     flex-direction: column-reverse;
