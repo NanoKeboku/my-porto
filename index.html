@@ -48,8 +48,8 @@
     <div class="left-nav light">
       <a class="light" href="#about"><i class="light fa-solid p-3 fa-user"></i> ABOUT ME</a>
       <a class="light" href="#skill"><i class="light fa-solid p-3 fa-pen-fancy"></i> SKILLS</a>
-      <a class="light" href="#"><i class="light fa-solid p-3 fa-pen-fancy"></i> PROJECT</a>
-      <a class="light" href="#"><i class="light fa-solid p-3 fa-phone"></i> CONTACT</a>
+      <a class="light" href="#my-web"><i class="light fa-solid p-3 fa-pen-fancy"></i> PROJECT</a>
+      <a class="light" href="#contact"><i class="light fa-solid p-3 fa-phone"></i> CONTACT</a>
       <a onclick="lightMode()" id="mode" class="light phone">
         <img src="./ICON/light.png" alt="lightMode" />
       </a>
@@ -57,21 +57,20 @@
 
     <!-- nav-atas -->
     <div class="nav detil light">
-      <h3 class="logo light">Alhambra</h3>
+      <h3 class="logo light"  ><a style="font-size: 35px; text-decoration: none;" href="#home">Alhambra</a></h3>
       <!--detil -->
 
       <div class="right-nav open">
         <a href="#about"> ABOUT ME</a>
         <a href="#skill"> SKILLS</a>
-        <a href="#"> PROJECT</a>
-        <a href="#"> CONTACT</a>
+        <a href="#my-web"> PROJECT</a>
       </div>
       <a onclick="lightMode()" id="mode" class="light desktop" style="color: white">
         <img src="./ICON/light.png" alt="lightMode" />
       </a>
     </div>
   </header>
-  <div class="wrap light">
+  <div id="home" class="wrap light">
     <div class="c-1" data-aos="fade-right">
       <div class="textLoad">
         <span class="text firstText light" style="background-color: transparent">Hi, I’m <span class="nando light bg-transparent">Nando</span>
@@ -80,7 +79,7 @@
           Welcome to my imaginative world! Let's explore <br> simple but creative works together. 🚀
         </p>
       </div>
-      <button class="click-me light d-flex">Hire Me <i class="fa-solid fa-arrow-right arrow light"></i></button>
+      <button onclick="window.location.href='whatsapp://send?text=Hello&phone=+628159990728;'" class="click-me light d-flex">Hire Me <i class="fa-solid fa-arrow-right arrow light"></i></button>
     </div>
 
     <div class="c-2 light">
@@ -102,7 +101,7 @@
     </div>
   </div>
   <!--BIO-->
-  <div class="bio light" class="d-flex align-items-center>
+  <div id="about" class="bio light" class="d-flex align-items-center>
     <div data-aos=" fade-up"">
     <div class="me">
       <h1 class="name light">
@@ -126,7 +125,7 @@
   </div>
 
   <!-- SKILL -->
-  <div class="myskill light">
+  <div id="skill" class="myskill light">
     <div class="its-me light d-flex flex-column ">
       <h1 class="fst-italic skill-title light" style="font-weight: 100;  transition-duration: 0.2s;">Discovering the
         Magic</h1>
@@ -249,7 +248,7 @@
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block" style="top: -110px;" src="img/8.svg" alt="E-commerce Slide 1">
+                <img class="d-block study" src="img/8.svg" alt="E-commerce Slide 1">
               </div>
             </div>
           </div>
@@ -284,7 +283,7 @@
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active bg-white">
-                <img class="d-block" style="width: 75%; top: 0px; left: 50px;" src="img/7.svg" alt="E-commerce Slide 1">
+                <img class="d-block app" src="img/7.svg" alt="E-commerce Slide 1">
               </div>
             </div>
           </div>
@@ -300,7 +299,7 @@
       </div>
     </div>
 
-    <div id="float-nav">
+    <div id="float-nav contact">
       <div class="bubble one light">
         <a href="https://www.instagram.com/nanokeboku/">
           <i class="fa-brands fa-instagram br light"></i>
