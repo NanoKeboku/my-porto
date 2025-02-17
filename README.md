@@ -2,7 +2,6 @@
 
 Selamat datang di portofolio saya! 🎨💻  
 Saya membangun website dan aplikasi dengan teknologi berikut:  
-🛠 Teknologi yang Digunakan  
 - HTML – Struktur utama halaman web.  
 - CSS – Styling dan layout responsif.  
 - Bootstrap – Framework CSS untuk desain cepat.  
